@@ -7,9 +7,15 @@ h1 {
 }
 
 #container {
+  display: flex;
   background: #003049;
   width: 90%;
   height: 500px;
   margin: 0 auto;
   border: 5px solid #003049;
+}
+
+#container div {
+  width: 150px;
+  height: 150px;
 }
